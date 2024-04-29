@@ -1,3 +1,43 @@
+
+def display_main_menu():
+    print('Enter some numbers separated by commas (e.g. 5, 67, 32): ')
+
+def get_user_input():
+    list=[]
+    str=input('Enter some numbers: ')
+    print(str)
+    str1=str.split(",")                    # .split(' ') seperates the string by commas/spaces
+    list=[float(i) for i in str1]          # change the str1 into float values
+    return list      
+
+def calc_average(num1):
+    ave=sum(num1)/len(num1)                #***********
+    print('Average is ', ave)
+
+def find_min_max(num2):
+    least=min(num2)                       # min/max/sum are functions of python
+    most=max(num2)
+    print('Mininmum valus is ', least)
+    print('Maximum valus is ', most)
+
+def calc_median_temperature():
+    pass
+    
+def main():
+    display_main_menu()
+    num=get_user_input()                # give a variable again so that it use it
+    calc_average(num)
+    find_min_max(num)
+
+if __name__ == "__main__":              # for the main function to work
+    main()
+
+
+
+
+
+
+
 """ EXERSIZE 1
 
 
@@ -63,10 +103,10 @@ print("DONE")"""
 
 
 
-"""EXERSIZE 2(WITH FUNCTION)"""
+"""EXERSIZE 2(WITH FUNCTION and WITH HELP)"""
 
 
-def display_main_menu():
+'''def display_main_menu():
     print("Enter some numbers separated by commas(e.g 5,67,32)")
 
 
@@ -107,7 +147,7 @@ def main():
     median_id(numy)
 
 if __name__ == "__main__":
-    main()
+    main()'''
 
    
 
