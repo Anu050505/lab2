@@ -1,16 +1,14 @@
-""" EXERSIZE 1
 
 def calculate_bmi(height,weight):
     print("Height = " + str(height))
     print("Weight = " + str(weight))
-
-calculate_bmi(weight=57, height=1.73)"""
-
-
+calculate_bmi(weight=57, height=1.73)
 
 
 #weight=float(input("your weight: "))
 #height=float(input("your height: "))
+
+
 weight=70
 height=1.73
 bmi= weight/(height*height)
