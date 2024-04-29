@@ -5,7 +5,7 @@ def calculate_bmi(height,weight):
     print("Weight = " , weight)
 #calculate_bmi(weight=57, height=1.73)
 
-#weight=float(input("your weight: "))
+#weight=float(input("your weight : "))
 #height=float(input("your height: "))
 
 #weight=70
@@ -24,8 +24,8 @@ def calculate_bmi(height,weight):
 
 
 def main():
-    a=int(input('enter height: '))
-    b=int(input('enter weight: '))
+    a=int(input('enter height in cm ONLY: '))
+    b=int(input('enter weight in kg ONLY: '))
     calculate_bmi(a,b)
 
 
